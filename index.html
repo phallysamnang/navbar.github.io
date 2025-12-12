@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Interfaces</title>
+    <!-- Link the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- --- Page 1 Content (Initially Visible) --- -->
+    <div id="page1" class="page-container page1-content">
+        <header class="page1-header">
+            <div class="logo">SAMNANG</div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <button class="btn page1-green-button" id="goToPage2Btn">Sign In</button>
+            </nav>
+        </header>
+
+        <main class="page1-main">
+            <div class="page1-card page1-light-card">
+                <h2>Developer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn page1-green-button">See More</button>
+            </div>
+            <div class="page1-card page1-dark-card">
+                <h2>UX/UI Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn page1-green-button">See More</button>
+            </div>
+            <div class="page1-card page1-dark-card">
+                <h2>Graphic Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn page1-green-button">See More</button>
+            </div>
+        </main>
+
+        <footer class="page1-footer">
+            <p>SAMNANG</p>
+        </footer>
+    </div>
+
+    <!-- --- Page 2 Content (Initially Hidden) --- -->
+    <div id="page2" class="page-container page2-content hidden">
+        <header class="page2-header">
+            <div class="logo">Welcome to My Portolio</div>
+        </header>
+
+        <main class="page2-main">
+            <div class="page2-card page2-light-white-card">
+                <h2>Developer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn page2-blue-button">See More</button>
+            </div>
+            <div class="page2-card page2-dark-black-card">
+                <h2>UX/UI Designer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn page2-blue-button">See More</button>
+            </div>
+            <div class="page2-card page2-dark-gray-card">
+                <h2>Graphic Designer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn page2-blue-button">See More</button>
+            </div>
+            <div class="page2-card page2-medium-gray-card">
+                <h2>Video Editor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn page2-blue-button">See More</button>
+            </div>
+        </main>
+
+        <footer class="page2-footer">
+            <button class="btn page2-blue-button">See More</button>
+            <button class="btn page2-blue-button" id="goToPage1Btn">Back</button>
+        </footer>
+    </div>
+
+    <!-- Link the external JavaScript file at the end of the body -->
+    <script src="script.js"></script>
+</body>
+</html>

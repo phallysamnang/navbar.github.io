@@ -1,0 +1,134 @@
+/* General Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Default background color for page 1 */
+    background-color: #f4f4f4; 
+}
+
+/* Utility class to hide elements */
+.hidden {
+    display: none !important;
+}
+
+/* --- Page Container Base Styles --- */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+}
+
+/* Base styles for buttons and links (streamlined) */
+.btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+/* --- Page 1 Styles (Dev Bros) --- */
+.page1-content {
+    color: #333;
+}
+
+.page1-header, .page1-footer {
+    background-color: #333; /* Dark header/footer color */
+    color: white;
+}
+
+.page1-header {
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page1-header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.page1-main {
+    flex: 1;
+    padding: 40px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.page1-card {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.page1-light-card { background-color: #fff; color: #333; }
+.page1-dark-card { background-color: #444; color: #fff; }
+.page1-green-button { background-color: #4CAF50; color: white; }
+
+.page1-footer {
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* --- Page 2 Styles (Welcome to My Portolio) --- */
+.page2-content {
+    color: #fff;
+}
+
+.page2-header, .page2-footer { background-color: #0b2545; }
+
+.page2-header {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.page2-main {
+    flex: 1;
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.page2-card {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+}
+
+.page2-light-white-card { background-color: #fff; color: #000; }
+.page2-dark-black-card { background-color: #000; }
+.page2-dark-gray-card { background-color: #4b4b4b; }
+.page2-medium-gray-card { background-color: #6d6a6a; }
+
+.page2-blue-button { background-color: #0000ff; color: white; }
+
+.page2-footer {
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
